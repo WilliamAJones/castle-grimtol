@@ -30,7 +30,7 @@ namespace CastleGrimtol.Project.Interfaces
 
         //Validate CurrentRoom.Exits contains the desired direction
         //if it does change the CurrentRoom
-        void Go(string direction);
+        void Ride(string direction);
 
         //When taking an item be sure the item is in the current room 
         //before adding it to the player inventory, Also don't forget to 

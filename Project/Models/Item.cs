@@ -6,5 +6,13 @@ namespace CastleGrimtol.Project.Models
     public class Item : IItem
     {
 
+        public Item(string name, string desc)
+        {
+            Name = name;
+            Description = desc;
+        }
+
+        public string Name { get; set ; }
+        public string Description { get; set; }
     }
 }
